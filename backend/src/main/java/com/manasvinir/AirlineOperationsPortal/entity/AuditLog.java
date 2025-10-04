@@ -1,4 +1,4 @@
-package com.manasvinir.AirplaneOperationsPortal.entity;
+package com.manasvinir.AirlineOperationsPortal.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -15,7 +15,7 @@ import java.time.Instant;
 public class AuditLog {
     @Id
     @GeneratedValue
-    private long id; // Surrogate PK
+    private Long id; // Surrogate PK
 
     @Enumerated(EnumType.STRING)
     private AuditAction action;

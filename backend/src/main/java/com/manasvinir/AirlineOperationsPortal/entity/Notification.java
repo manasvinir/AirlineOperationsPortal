@@ -1,4 +1,4 @@
-package com.manasvinir.AirplaneOperationsPortal.entity;
+package com.manasvinir.AirlineOperationsPortal.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -14,7 +14,7 @@ public class Notification {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
 
     @ManyToOne(optional = false)
     @JoinColumn(name = "flight_id")

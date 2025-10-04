@@ -1,4 +1,4 @@
-package com.manasvinir.AirplaneOperationsPortal.entity;
+package com.manasvinir.AirlineOperationsPortal.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -20,7 +20,7 @@ import java.util.List;
 public class Flight {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private Long id;
 
     @Column(unique = true, nullable = false)
     private String flightNumber;

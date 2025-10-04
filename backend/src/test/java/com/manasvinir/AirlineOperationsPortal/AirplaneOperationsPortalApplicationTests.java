@@ -1,4 +1,4 @@
-package com.manasvinir.AirplaneOperationsPortal;
+package com.manasvinir.AirlineOperationsPortal;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

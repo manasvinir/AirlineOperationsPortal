@@ -1,4 +1,4 @@
-package com.manasvinir.AirplaneOperationsPortal.entity;
+package com.manasvinir.AirlineOperationsPortal.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -13,7 +13,7 @@ import java.util.List;
 public class CrewMember {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;    //surrogate key for internal use
+    private Long id;    //surrogate key for internal use
 
     @Column(nullable = false)
     private String name;

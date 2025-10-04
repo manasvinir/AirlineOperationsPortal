@@ -1,13 +1,13 @@
-package com.manasvinir.AirplaneOperationsPortal;
+package com.manasvinir.AirlineOperationsPortal;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AirplaneOperationsPortalApplication {
+public class AirlineOperationsPortalApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AirplaneOperationsPortalApplication.class, args);
+		SpringApplication.run(AirlineOperationsPortalApplication.class, args);
 	}
 
 }
