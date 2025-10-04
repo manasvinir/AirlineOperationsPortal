@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.manasvinir</groupId>
-	<artifactId>AirplaneOperationsPortal</artifactId>
+	<artifactId>AirlineOperationsPortal</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>AirplaneOperationsPortal</name>
-	<description>Backend for Airplane Op Portal</description>
+	<name>AirlineOperationsPortal</name>
+	<description>Backend for Airline Op Portal</description>
 	<url/>
 	<licenses>
 		<license/>
